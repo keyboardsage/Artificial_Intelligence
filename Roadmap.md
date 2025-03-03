@@ -30,10 +30,12 @@ Also exploratory data analysis to visualize the data.
 You need to know which model to use to solve which problems. The answer to everything isn't Neural Networks.
 
 Learn the algorithms that fall under:
-- Classification
+- Classification: labels are preknown
+- Clustering: labels are not preknown
 - Regression
 - Supervised Learning
 - Unsupervised Learning
+- Reinforcement Learning: trial and error, interacting with its environment and receiving feedback in the form of rewards
 
 How to evaluate the training, testing, and validation of a model. Consider different sampling or resampling techniques. Know about bootstrapping, cross validation, k-fold cross validation, or leave-one-out cross validation. What are the metrics to use to evaluate your model (mean absolute vs mean squared error).
 
