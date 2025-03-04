@@ -72,7 +72,7 @@ Put a pin in the ideas of loss function and cost function, we will come back to 
 # Training
 Now armed with the knowledge of underfitting, overfitting, loss function, and cost function lets talk about how training is done.
 
-You have to define a **loss function**/**cost function**, which provides a value that indicates how correct the neural network's answer was. A simple one could be the summation of `(resulting neuron value - expected neuron value)^2`. This provides a way to compare one result to another result. Moreover, and amore importantly, we can divide the summation by some number of neurons to reach an average then compare all of the results as a group to other runs of the neural network.
+You have to define a **loss function**/**cost function**, which provides a value that indicates how correct the neural network's answer was. A simple one could be the summation of `(resulting neuron value - expected neuron value)^2`. This provides a way to compare one result to another result. Moreover, and more importantly, we can divide the summation by some number of neurons to reach an average then compare all of the results as a group to other runs of the neural network.
 
 Now take that average, imagine it plotted on a curve on a graph, the x-axis can be weight and y-axis the result of ReLU for instance. The goal is to find a result that is the lowest possible value.
 You take a step in the direction of the slope (or gradient), and the step size is relative to the slope.
@@ -84,7 +84,7 @@ In a nutshell, what we mean when we talk about a network learning, is simply the
 Backpropagation computes the "nudges" that the cost function needs efficiently. This gets it to approach a minima.
 
 # Sources
-[3Blue1Brown Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1)  
-[What OVERFITTING Teaches You About Life | Machine Learning and Statistics](https://www.youtube.com/watch?v=Nhsw8x9vyc0)  
-[Mathematical Origins of Machine Learning | Teaching Computers to Learn, Part 2](https://www.youtube.com/watch?v=_GkNhKqsgVQ)  
-[Perceptrons: The First Trainable Neural Networks | Teaching Computers to Learn, Part 3](https://www.youtube.com/watch?v=Ip6RIHwi21c)  
+- [3Blue1Brown Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1)  
+- [What OVERFITTING Teaches You About Life | Machine Learning and Statistics](https://www.youtube.com/watch?v=Nhsw8x9vyc0)  
+- [Mathematical Origins of Machine Learning | Teaching Computers to Learn, Part 2](https://www.youtube.com/watch?v=_GkNhKqsgVQ)  
+- [Perceptrons: The First Trainable Neural Networks | Teaching Computers to Learn, Part 3](https://www.youtube.com/watch?v=Ip6RIHwi21c)  
